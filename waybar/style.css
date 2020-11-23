@@ -1,0 +1,208 @@
+* {
+    padding-bottom: 0px;
+    border: none;
+    border-radius: 0;
+    font-family: "Ubuntu";
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: rgba(11, 102, 35, 1);
+}
+
+#workspaces {
+    margin-left: 3px;
+}
+
+#workspaces button {
+    margin-right: 3px;
+    margin-top: 3px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+    padding-left: 1px;
+    background: #028A0F;
+    color: white;
+    transition-duration: 0;
+    font-weight: bold;
+    font-family: "UbuntuMono Nerd Font";
+    border-radius: 2px;
+}
+
+#workspaces button.focused {
+    background-color: #234F1E;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0;
+}
+
+#workspaces button.persistent {
+    background: #2E8B57;
+    font-weight: normal;
+    transition-duration: 0;
+}
+
+#mode {
+    background-color: #0B6623;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#custom-powermenu {
+    background: #ee4934;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Ubuntu Nerd Font";
+    border-radius: 2px;
+}
+
+#tray {
+    background: #464853;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-top: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: Ubuntu;
+    border-radius: 2px;
+}
+
+#cpu {
+    background: #464853;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 4px;
+    padding-right: 6px;
+    font-family: "Ubuntu Nerd Font";
+    border-radius: 2px;
+}
+
+#pulseaudio {
+    background: #0B6623;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bold;
+    font-family: "Ubuntu Nerd Font";
+}
+
+#clock {
+    background: #2E8B57;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#network {
+    background: #2E8B57;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bold;
+    font-family: "Ubuntu Nerd Font";
+    border-radius: 2px 0 0 2px;
+}
+
+#custom-ping {
+    background: #464853;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: "Ubuntu Nerd Font";
+    border-radius: 2px;
+}
+
+#custom-language {
+    background: #464853;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: "Ubuntu Nerd Font";
+    border-radius: 2px;
+}
+
+#custom-chinesevirus {
+    background: #464853;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: "Ubuntu Nerd Font";
+    border-radius: 2px;
+}
+
+#custom-menu {
+    background: #2E8B57;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 3px;
+    margin-right: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bold;
+    font-family: "Ubuntu Nerd Font";
+    border-radius: 2px;
+}
+
+#battery {
+    background: #2eb398;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bold;
+    font-family: "Ubuntu Nerd Font";
+    border-radius: 0 2px 2px 0;
+}
+
+#battery.charging {
+    padding-right: 4px;
+}

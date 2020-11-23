@@ -1,0 +1,114 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "modules-left": ["custom/menu", "sway/workspaces", "sway/mode"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray","custom/chinesevirus", "cpu", "custom/ping", "custom/language","network", "pulseaudio", "battery", "custom/powermenu"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "sway/mode": {
+        "tooltip": false
+    },
+    "sway/workspaces": {
+        "all-outputs": true,
+        "persistent_workspaces": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+        }
+    },
+
+    "custom/language": {
+         "exec": "~/.config/waybar/scripts/language.sh",
+         "interval": 1,
+         "tooltip": false,
+         "format": "{}"
+    },
+
+    "custom/ping": {
+        "exec": "~/.config/waybar/scripts/ping.sh",
+        "interval": 3,
+        "tooltip": false,
+        "format": "{} ms 🌐"
+    },
+    "cpu": {
+        "format": "{usage}% CPU"
+    },
+    "custom/menu": {
+        "format": "🐧 OpenSUSE",
+        "tooltip": false,
+	"on-click": "~/.config/waybar/scripts/wofi.sh"
+    },
+    "custom/kernel": {
+        "exec": "uname -r",
+        "interval": "once",
+        "tooltip": false
+    },
+    "tray": {
+        "spacing": 5,
+        "icon-size": 14,
+        "tooltip": false
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 20,
+            "critical": 10
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% {icon}  ",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " "],
+        "tooltip": false,
+        "on-click": "lxtask"
+    },
+    "custom/powermenu": {
+        "on-click": "notify-send \"End session\" \"Press Q to poweroff, W to reboot, E to logout, or Esc to cancel.\" ;swaymsg mode Logout",
+        "format": "🔌",
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%a, %d %b %H:%M}",
+        "tooltip": false,
+        "on-click": "alacritty -e calcurse"
+    },
+    "pulseaudio": {
+        //"scroll-step": 1,
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "🔈",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["🔉", "🔊"]
+        },
+        "tooltip": false,
+        "on-click": "pavucontrol"
+    },
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%) 📡",
+        "format-ethernet": "Wired: {ifname} ",
+        "format-disconnected": "Disconnected ⚠",
+        "tooltip": false,
+        "on-click": "alacritty -e nmtui"
+    },
+    "custom/chinesevirus": {
+        "format": "{} ",
+        "exec": "cat ~/.cache/covid-id",
+        "interval": 60,
+        "tooltip": false
+    }
+}
