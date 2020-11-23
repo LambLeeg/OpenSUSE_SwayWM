@@ -14,9 +14,6 @@ The list of packages you'll need:
 - pavucontrol
 - kitty [https://sw.kovidgoyal.net/kitty/]
 
-# --------------
-# How to install:
-# --------------
 # _OpenSUSE (Tumbleweed)_
  - sudo zypper in sway mako kitty 
  - (Tested)
