@@ -45,3 +45,4 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
  --------------
  Everything you need else is my dotfiles, so, just copy them.
  
+ PS. Maybe you want to make your terminal looks like mine, so, just [click here](https://github.com/b-ryan/powerline-shell)
