@@ -1,7 +1,7 @@
-# OpenSUSE_SwayWM
+### OpenSUSE_SwayWM
 _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumbleweed_ 
 
-The list of packages you'll need:
+# The list of packages you'll need:
 - mako [https://github.com/emersion/mako]
 - sway [https://github.com/swaywm/sway/wiki]
 - waybar [https://github.com/Alexays/Waybar]
