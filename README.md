@@ -2,17 +2,17 @@
 _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumbleweed_ 
 
 # The list of packages you'll need:
-- mako [https://github.com/emersion/mako]
-- sway [https://github.com/swaywm/sway/wiki]
-- waybar [https://github.com/Alexays/Waybar]
+- [mako] (https://github.com/emersion/mako)
+- [sway] (https://github.com/swaywm/sway/wiki)
+- [waybar] (https://github.com/Alexays/Waybar)
 - swayidle
-- grim [https://github.com/emersion/grim]
-- brightnessctl [https://github.com/Hummer12007/brightnessctl]
+- [grim] (https://github.com/emersion/grim)
+- [brightnessctl] https://github.com/Hummer12007/brightnessctl)
 - swaylock
-- slurp [https://github.com/emersion/slurp]
-- wofi [https://hg.sr.ht/~scoopta/wofi] 
+- [slurp] (https://github.com/emersion/slurp)
+- [wofi] (https://hg.sr.ht/~scoopta/wofi)
 - pavucontrol
-- kitty [https://sw.kovidgoyal.net/kitty/]
+- [kitty] (https://sw.kovidgoyal.net/kitty/)
 
 # _OpenSUSE (Tumbleweed)_
   ```
