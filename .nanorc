@@ -1,0 +1,31 @@
+# set element fgcolor,bgcolor
+
+set titlecolor brightwhite,blue
+
+set statuscolor brightwhite,blue
+
+set errorcolor brightwhite,red
+
+set selectedcolor brightwhite,magenta
+
+set stripecolor yellow
+
+set numbercolor cyan
+
+set keycolor cyan
+
+set functioncolor blue
+
+include "/usr/share/nano/*.nanorc"
+
+set linenumbers
+
+set tabsize 2
+
+set brackets ""’)>]}"
+
+set mouse
+
+set nohelp
+
+set tabstospaces
