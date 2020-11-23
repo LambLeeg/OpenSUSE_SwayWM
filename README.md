@@ -43,6 +43,6 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
   - $ mkdir .config/waybar/scripts  (Also, make sure that all files here are executable, if not then just  $ chmod +x $FILENAME)
  ```
  --------------
- Everything you need else is my dotfiles, so, just copy them.
+ Everything you need else is my dotfiles, so, just copy them. As an example, you can see above my folder, so you can just make these files at the same folders (by name, we recently made them) `$ vim .config/sway/config ` (as an example) 
  
  PS. Maybe you want to make your terminal looks like mine, so, just [click here](https://github.com/b-ryan/powerline-shell), also, I use Chromium and you need to change it in Sway config to your default browser
