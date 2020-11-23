@@ -33,10 +33,12 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
  - where $USERNAME is your own name
  
 # How to create all directories we need?
- ` - mkdir .config/sway `
- ` - mkdir .config/mako `
- ` - mkdir .config/waybar `
- ` - mkdir .config/waybar/scripts ` (Also, make sure that all files here are executable, if not then just ` $ chmod +x $FILENAME`)
+ ```
+  - mkdir .config/sway 
+  - mkdir .config/mako 
+  - mkdir .config/waybar 
+  - mkdir .config/waybar/scripts  (Also, make sure that all files here are executable, if not then just  $ chmod +x $FILENAME)
+ ```
  --------------
  Everything you need else is my dotfiles, so, just copy them.
  
