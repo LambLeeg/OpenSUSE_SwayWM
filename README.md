@@ -11,6 +11,7 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
 - [grim](https://github.com/emersion/grim)
 - [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 - swaylock
+- lxappearance
 - [slurp](https://github.com/emersion/slurp)
 - [wofi](https://hg.sr.ht/~scoopta/wofi)
 - pavucontrol
