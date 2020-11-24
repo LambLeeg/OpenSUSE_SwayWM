@@ -44,6 +44,10 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
   - $ mkdir .config/wofi
   - $ mkdir .config/waybar/scripts  (Also, make sure that all files here are executable, if not then just  $ chmod +x $FILENAME)
  ```
+ 
+# How do I change default neofetch?
+ - Well, you have to open my neofetch config and change 711th line (write your location of .txt file down), as an example you can use my logo.txt file
+ 
  --------------
  Everything you need else is my dotfiles, so, just copy them. As an example, you can see above my folders, so you can just make these files at the same folders (by name, we recently made them) `$ vim .config/sway/config ` (as an example) 
  
