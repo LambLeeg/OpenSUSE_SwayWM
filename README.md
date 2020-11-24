@@ -40,6 +40,7 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
   - $ mkdir .config/mako 
   - $ mkdir .config/waybar 
   - $ mkdir .config/swaylock
+  - $ mkdir .config/wofi
   - $ mkdir .config/waybar/scripts  (Also, make sure that all files here are executable, if not then just  $ chmod +x $FILENAME)
  ```
  --------------
