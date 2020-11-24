@@ -46,7 +46,7 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
  ```
  
 # How do I change default neofetch?
- - Well, you have to open my neofetch config and change 711th line (write your location of .txt file down), as an example you can use my logo.txt file
+ - Well, you have to open my [neofetch config](https://github.com/LambLeeg/OpenSUSE_SwayWM/blob/main/neofetch/config.conf) and change 711th line (write your location of .txt file down), as an example you can use my [logo.txt file](https://github.com/LambLeeg/OpenSUSE_SwayWM/blob/main/logo.txt)
  
  --------------
  Everything you need else is my dotfiles, so, just copy them. As an example, you can see above my folders, so you can just make these files at the same folders (by name, we recently made them) `$ vim .config/sway/config ` (as an example) 
