@@ -1,0 +1,46 @@
+*{
+    font-family: Ubuntu;
+}
+
+window {
+    background-color: #7C818C;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: #383C4A;
+    color: white;
+}
+
+#inner-box {
+    background-color: #383C4A;
+
+}
+
+#outer-box {
+    margin: 5px;
+    padding:20px;
+    background-color: #383C4A;
+}
+
+#scroll {
+}
+
+#text {
+padding: 5px;
+color: white;
+}
+
+#entry:nth-child(even){
+    background-color: #404552;
+}
+
+#entry:selected {
+    background-color: #2E8B57;
+    border-radius: 6px;
+}
+
+#text:selected {
+}
