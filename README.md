@@ -8,6 +8,7 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
 - [sway](https://github.com/swaywm/sway/wiki)
 - [waybar](https://github.com/Alexays/Waybar)
 - swayidle
+- wl-clipboard
 - [grim](https://github.com/emersion/grim)
 - [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 - swaylock
