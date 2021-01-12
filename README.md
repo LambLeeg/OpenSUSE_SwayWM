@@ -20,15 +20,13 @@ _Here is my own setup of the Sway WM that I have done with my OpenSUSE Tumblewee
 
 # _OpenSUSE (Tumbleweed)_
   ```
- - $ sudo zypper in sway mako kitty
+ - $ sudo zypper in sway mako kitty wl-clipboard
   ```
- - (Tested)
  
 # _Arch_
   ```
- - $ sudo pacman -S mako sway waybar swayidle swaylock grim slurp wofi brightnessctl kitty pavucontrol
+ - $ sudo pacman -S mako sway waybar swayidle swaylock grim slurp wofi brightnessctl kitty pavucontrol wl-clipboard
   ```
- - (Not tested)
  
 # How to set up brightness
   ```
